@@ -27,7 +27,7 @@ week-06/
     └── charts/ (5 PNG charts)
 ```
 
-To re-run the notebook, point `DATA_DIR` at a folder holding `sales_transactions.csv`, `inventory_position.csv`, `purchase_transactions.csv` (Week 2 folder) and `stock_ledger.csv` (Week 3 folder).
+To re-run the notebook, open it in Google Colab and run all cells. The first cell mounts Google Drive, and the notebook then reads `sales_transactions.csv`, `inventory_position.csv` and `purchase_transactions.csv` from the project's `week-02/week-02/` folder and `stock_ledger.csv` from `week-3/` in Drive, and writes its outputs to `week-06/outputs/`.
 
 ## Ground rules
 
@@ -95,6 +95,7 @@ Under 5,000 random KPI weightings, Kolkata ranks first 99.8% of the time, and Ko
 ## Caveats
 
 - **Scale flag.** Space results use recorded stock, which cannot physically fit (section 1). The 6 m stacking height is an assumption.
+- **Reconciliation (31 Oct 2026).** The scale flag was traced through the purchasing and ledger data and is not a unit error. Received purchase orders (22.4 million units) and ledger receipts (20.4 million units) agree to within about 9%, and recorded stock is consistent with both, so the mismatch sits between purchasing and stock on one side and the sales and policy fields (max stock, reorder level) on the other. Stock-based figures stay as recorded.
 - **Shared numerator.** Shipped per employee, revenue per sq ft and cost per unit shipped all divide by units shipped, so the score mostly reflects shipping volume relative to branch size.
 - **No throughput ceiling.** The data has no maximum throughput per branch, so "capacity" is floor area, and headroom is judged only against the other branches.
 - Staff numbers and operating costs are taken as recorded in the branch fields.
