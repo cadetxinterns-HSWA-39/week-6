@@ -1,0 +1,5 @@
+measure,lowest_branch,highest_branch,p_value,gap_pct,statistically_significant,practically_meaningful,bottleneck_flag
+Order cancellation rate,9.3116,10.5643,0.0,13.4527,True,False,False
+Order-to-delivery days (mean),7.9797,8.1245,0.0007,1.8139,True,False,False
+Inbound receipts late (%),14.2703,15.7116,0.0002,10.1,True,False,False
+Inbound lateness (mean days),0.4592,0.5364,0.026,16.8084,True,False,False

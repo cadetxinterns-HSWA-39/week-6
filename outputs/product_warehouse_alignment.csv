@@ -1,0 +1,7 @@
+branch_id,branch_name,alignment_stock_vs_demand,alignment_maxstock_vs_demand,demand_share_pct,capacity_share_pct,staff_share_pct,stock_share_pct,demand_per_1000sqft
+DEL001,Delhi Central,0.9451,0.8338,15.9761,20.0062,22.1154,17.0369,703.0069
+PUN001,Pune Distribution,0.9487,0.846,15.4264,17.14,17.7885,16.869,792.3355
+CHN001,Chennai South Hub,0.9551,0.8379,20.1639,18.5288,19.4712,16.7549,958.0329
+HYD001,Hyderabad Logistics,0.9463,0.85,14.0266,16.0165,13.7019,16.8121,770.9749
+KOL001,Kolkata East Depot,0.9512,0.8565,18.5681,13.2166,11.7788,16.1828,1236.8139
+AHM001,Ahmedabad West Hub,0.9534,0.8116,15.8389,15.092,15.1442,16.3443,923.9156

@@ -1,0 +1,7 @@
+branch_id,branch_name,share_ranked_1st_pct,share_in_top3_pct,average_rank
+KOL001,Kolkata East Depot,99.8,100.0,1.0
+CHN001,Chennai South Hub,0.2,100.0,2.2
+AHM001,Ahmedabad West Hub,0.0,100.0,2.8
+HYD001,Hyderabad Logistics,0.0,0.0,4.3
+PUN001,Pune Distribution,0.0,0.0,5.3
+DEL001,Delhi Central,0.0,0.0,5.4
